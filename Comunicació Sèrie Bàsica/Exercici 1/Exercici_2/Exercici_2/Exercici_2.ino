@@ -23,7 +23,7 @@ void setup()
 
 void loop()  
 {                 
-  Serial.println ("Hello world!"); // prints Hello world! with brake line           
+  Serial.print ("Hello world!"); // prints Hello world! with brake line           
   delay(1000);
 }
 
