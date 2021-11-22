@@ -14,17 +14,17 @@
 
 //************************** SETUP ************************************
 
-void setup()                // run once, when the sketch starts
+void setup()                
 {                
-  Serial.begin(9600);      // setup Serial library at 9600 bps
-  Serial.println ("Hello world!"); // prints Hello world! with brake line
+  Serial.begin(9600);      
 }
 
 //************************** LOOP *************************************
 
-void loop()  // run over and over again
+void loop()  
 {                 
-            // do nothing
+  Serial.println ("Hello world!"); // prints Hello world! with brake line           
+  delay(1000);
 }
 
 //************************** FUNCIONS **********************************
