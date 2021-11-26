@@ -10,7 +10,7 @@
 
 //************************ VARIABLES **********************************
 
-int drive_gb = 100;
+int drive_gb = 5;
 int drive_mb = 0;
 
 //************************** SETUP ************************************
@@ -34,5 +34,3 @@ void setup()  // run once when the sketch starts
 void loop()  // we need this to be here even though its empty
 {                 
 }
-
-//************************** FUNCIONS **********************************
