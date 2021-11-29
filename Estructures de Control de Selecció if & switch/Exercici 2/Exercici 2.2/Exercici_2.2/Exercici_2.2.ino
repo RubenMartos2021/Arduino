@@ -21,6 +21,16 @@ void setup()  // ho fa un cop quan el programa s'inicia
   {
     Serial.print("Aigua supera els 100ºC, està bullint ");
   }
+
+  else if (tempAigua == 100)
+  {
+    Serial.print("L'aigua iguala els 100ºC, està escalfada ");
+  }
+
+  else
+  {
+    Serial.print("Aigua no supera els 100ºC, està tranquila ");
+  }
 }
 
 //************************** LOOP *************************************
