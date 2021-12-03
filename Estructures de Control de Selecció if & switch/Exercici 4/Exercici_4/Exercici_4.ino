@@ -22,7 +22,7 @@ void setup()  // ho fa un cop quan el programa s'inicia
     Serial.print("Aigua encara no bull ");
   }
   
-  else if (tempAigua >= 90 && tempAigua <= 99)
+  else if (tempAigua >= 90 && tempAigua < 100)
   {
     Serial.print("Aigua a punt de bullir ");
   }
