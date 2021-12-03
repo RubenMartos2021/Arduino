@@ -9,7 +9,7 @@
 
 
 //************************ VARIABLES **********************************
-float qualifEnergetica = 43.2;
+float qualifEnergetica = 47.2;
 
 //************************** SETUP ************************************
 
@@ -23,27 +23,27 @@ void setup()  // ho fa un cop quan el programa s'inicia
     Serial.print("A ");
   }
   
-  else if (qualifEnergetica >= 3.5 && qualifEnergetica <= 6.4)
+  else if (qualifEnergetica >= 3.5 && qualifEnergetica < 6.5)
   {
     Serial.print("B ");
   }
 
-   else if (qualifEnergetica >= 6.5 && qualifEnergetica <= 11)
+   else if (qualifEnergetica >= 6.5 && qualifEnergetica < 11.1)
   {
     Serial.print("C ");
   }
 
-  else if (qualifEnergetica >= 11.1 && qualifEnergetica <= 17.6)
+  else if (qualifEnergetica >= 11.1 && qualifEnergetica < 17.7)
   {
     Serial.print("D ");
   }
 
-   else if (qualifEnergetica >= 17.7 && qualifEnergetica <= 38.1)
+   else if (qualifEnergetica >= 17.7 && qualifEnergetica < 38.2)
   {
     Serial.print("E ");
   }
 
-  else if (qualifEnergetica >= 38.2 && qualifEnergetica <= 43.1)
+  else if (qualifEnergetica >= 38.2 && qualifEnergetica < 43.2)
   {
     Serial.print("F ");
   }
