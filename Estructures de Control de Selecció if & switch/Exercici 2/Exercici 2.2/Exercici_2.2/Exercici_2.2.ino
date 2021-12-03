@@ -9,7 +9,7 @@
 
 
 //************************ VARIABLES **********************************
-int tempAigua = 100;
+int tempAigua = 99;
 
 //************************** SETUP ************************************
 
@@ -24,7 +24,7 @@ void setup()  // ho fa un cop quan el programa s'inicia
 
   else if (tempAigua == 100)
   {
-    Serial.print("L'aigua iguala els 100ºC, està escalfada ");
+    Serial.print("L'aigua igual als 100ºC, està escalfada ");
   }
 
   else
