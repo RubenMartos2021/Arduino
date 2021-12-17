@@ -10,7 +10,7 @@
 
 //************************ VARIABLES **********************************
 const byte led3 = 8;          // donar nom al pin 8 de l’Arduino
-int LED = 30;
+int LED = 29;
 //************************** SETUP ************************************
 
 void setup()  // ho fa un cop quan el programa s'inicia
