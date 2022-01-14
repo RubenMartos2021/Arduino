@@ -28,10 +28,19 @@ void loop()      //we need this to be here even though its empty
   valPot0 = analogRead(pot0);    // llegir valor potenciòmetre 
 
   tone(xiulet, 1000, valPot0);    // xiulet de durada valPot0
+ delay(2*valPot0);              // esperar valPot0 del xiulet + valPot0 silenci
+
+valPot0 = analogRead(pot0);    // llegir valor potenciòmetre
   tone(xiulet, 1000, valPot0);    // xiulet de durada valPot0
+   delay(2*valPot0);              // esperar valPot0 del xiulet + valPot0 silenci
+
+valPot0 = analogRead(pot0);    // llegir valor potenciòmetre
+  tone(xiulet, 1000, valPot0);    // xiulet de durada valPot0  
+   delay(2*valPot0);              // esperar valPot0 del xiulet + valPot0 silenci
+
+valPot0 = analogRead(pot0);    // llegir valor potenciòmetre
   tone(xiulet, 1000, valPot0);    // xiulet de durada valPot0
-  tone(xiulet, 1000, valPot0);    // xiulet de durada valPot0
-  delay(10*valPot0);              // esperar valPot0 del xiulet + valPot0 silenci             
+  delay(1000*valPot0);              // esperar valPot0 del xiulet + valPot0 silenci            
 }
 
 //************************** FUNCIONS  *********************************
