@@ -40,7 +40,7 @@ valPot0 = analogRead(pot0);    // llegir valor potenciòmetre
 
 valPot0 = analogRead(pot0);    // llegir valor potenciòmetre
   tone(xiulet, 1000, valPot0);    // xiulet de durada valPot0
-  delay(1000*valPot0);              // esperar valPot0 del xiulet + valPot0 silenci            
+  delay(5*valPot0);              // esperar valPot0 del xiulet + valPot0 silenci            
 }
 
 //************************** FUNCIONS  *********************************
